@@ -1,0 +1,39 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS CheckBox mouse toggles on
+PASS CheckBox mouse toggles off
+PASS CheckButton mouse toggles on
+PASS CheckButton mouse toggles off
+PASS tab keyboard selection 2
+PASS tab keyboard selection 3
+PASS tab keyboard selection 4
+PASS tab keyboard selection 5
+PASS tab keyboard selection 6
+PASS tab keyboard selection 7
+PASS LineEdit typed character
+PASS LineEdit backspace
+PASS slider keyboard maximum
+PASS slider keyboard minimum
+PASS progress bar remains independent display
+PASS radio group exclusive selection 0
+PASS radio group exclusive selection 1
+PASS radio group exclusive selection 2
+PASS script built tree hierarchy
+PASS tree enabled/disabled buttons
+PASS bottom foldable opens and closes sibling
+PASS top foldable opens and closes sibling
+PASS option popup opened via keyboard
+OPTION_INITIAL_FOCUS 0
+PASS option selection routed through popup
+FAIL SpinBox accepts typed 42
+PASS TextEdit accepts newline
+PASS ItemList mouse selects enabled 0
+PASS ItemList mouse selects enabled 1
+PASS ItemList mouse selects enabled 3
+PASS ItemList rejects disabled row
+PASS MenuButton opens popup
+PASS Escape dismisses menu
+PASS color picker opens
+PASS Escape dismisses color picker
+PASS horizontal split mouse drag changes offset
+HEADLESS STATE ONLY; visual QA and remaining interactions pending; failures=1

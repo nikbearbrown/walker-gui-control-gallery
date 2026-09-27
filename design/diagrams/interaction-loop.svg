@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+<title id="t">Recovered interaction loop · control gallery</title>
+<desc id="d">Launch opens the single gallery scene; the user operates any control, which changes only its own state, or opens a popup and dismisses it. IDs: M-01..M-11, S-01.</desc>
+<rect width="1200" height="560" fill="#faf9f5"/>
+<defs>
+<marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#25354a"/></marker>
+<marker id="p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d24e42"/></marker>
+</defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a">
+<text x="32" y="44" font-size="26" font-weight="700">Recovered interaction loop · control gallery</text>
+<text x="32" y="70" font-size="14" fill="#5b6b7c">One scene, no goal. Every arrow is built-in Godot GUI behavior; no script connects controls to each other.</text>
+<path d="M224 265 L326 265" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M552 216 Q626 150 696 170" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="627" y="147" font-size="13" fill="#5b6b7c" text-anchor="middle" paint-order="stroke" stroke="#faf9f5" stroke-width="4">click · type · keys</text>
+<path d="M744 194 Q659 265 564 248" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M564 270 L696 275" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="642" y="266" font-size="13" fill="#5b6b7c" text-anchor="middle" paint-order="stroke" stroke="#faf9f5" stroke-width="4">open</text>
+<path d="M696 253 Q645 213 564 252" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M538 314 Q622 392 696 376" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="623" y="383" font-size="13" fill="#5b6b7c" text-anchor="middle" paint-order="stroke" stroke="#faf9f5" stroke-width="4">drag</text>
+<path d="M766 366 Q663 278 564 289" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M445 314 L445 396" fill="none" stroke="#d24e42" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#p)"/>
+<text x="445" y="344" font-size="13" fill="#d24e42" text-anchor="middle" paint-order="stroke" stroke="#faf9f5" stroke-width="4">nothing leads here</text>
+<rect x="40" y="230" width="180" height="70" rx="8" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="130" y="261" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">Launch</text>
+<text x="130" y="279" font-size="13" fill="#5b6b7c" text-anchor="middle">project.godot:16</text>
+<rect x="330" y="220" width="230" height="90" rx="22" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="445" y="252" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">Gallery on screen</text>
+<text x="445" y="270" font-size="13" fill="#5b6b7c" text-anchor="middle">control_gallery.tscn</text>
+<text x="445" y="288" font-size="13" fill="#5b6b7c" text-anchor="middle">4 panels, no state machine</text>
+<rect x="700" y="110" width="280" height="80" rx="8" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="840" y="137" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">Operate a control</text>
+<text x="840" y="155" font-size="13" fill="#5b6b7c" text-anchor="middle">M-01..M-04, M-06, M-08, M-09</text>
+<text x="840" y="173" font-size="13" fill="#5b6b7c" text-anchor="middle">changes only itself</text>
+<rect x="700" y="240" width="280" height="80" rx="8" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="840" y="267" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">Popup open</text>
+<text x="840" y="285" font-size="13" fill="#5b6b7c" text-anchor="middle">OptionButton · MenuButton · ColorPicker</text>
+<text x="840" y="303" font-size="13" fill="#5b6b7c" text-anchor="middle">Escape / select closes</text>
+<rect x="700" y="370" width="280" height="70" rx="8" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="840" y="401" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">Drag a split gap</text>
+<text x="840" y="419" font-size="13" fill="#5b6b7c" text-anchor="middle">M-11 · offsets 242 / 375</text>
+<rect x="330" y="400" width="230" height="70" rx="8" fill="#faf9f5" stroke="#5b6b7c" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="445" y="431" font-size="16" font-weight="700" fill="#5b6b7c" text-anchor="middle">Goal / end state</text>
+<text x="445" y="449" font-size="13" fill="#5b6b7c" text-anchor="middle">[MISSING] Q-04, Q-05</text>
+<line x1="32" y1="534" x2="72" y2="534" stroke="#25354a" stroke-width="2.5"/><text x="80" y="538" font-size="13" fill="#5b6b7c">observed in code (solid)</text>
+<line x1="260" y1="534" x2="300" y2="534" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6"/><text x="308" y="538" font-size="13" fill="#5b6b7c">proposed / not in code (dashed)</text>
+<line x1="520" y1="534" x2="560" y2="534" stroke="#5b6b7c" stroke-width="2.5" stroke-dasharray="8 6"/><text x="568" y="538" font-size="13" fill="#5b6b7c">[MISSING] intent (grey dashed)</text>
+</g></svg>
